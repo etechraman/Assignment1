@@ -12,7 +12,11 @@ body{
   width: -webkit-fill-available;
   padding-left: 120px;
 }
+a.layout{
+  font-weight: bold;
+}
 .header a{
+  font-family: sans-serif;
   float: left;
   display: block;
   color: #f2f2f2;
@@ -45,7 +49,7 @@ h1{
   font-size: x-large;
 }
 .secondary{
-  width: auto;
+  width: 81%;
   /* margin-left: 10px; */
   padding-bottom: 0px;
 }
@@ -57,6 +61,8 @@ h1{
   font-weight: lighter 100;
 }
 .headCard .btn{
+  padding-left: 11px;
+  padding-right: 11px;
   margin-left: 10px;
   border-radius: 4px;
   background: #007BAF;
@@ -67,8 +73,8 @@ h1{
 hr{
   border-top: 1.2px;
   height:0.4px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 18px;
+  margin-right: 38px;
   background: #696969;
   margin-top: 1px;
 }
@@ -82,7 +88,7 @@ h2{
 {
 	display: flex;
   flex-wrap: wrap;
-  margin-left: 12px;
+  margin-left: 10px;
   margin-bottom: 60px;
 }
 .thumbnail 
@@ -115,6 +121,8 @@ p{
   background: #007BAF;
   color: #fff;
   padding: 5px;
+  padding-left: 11px;
+  padding-right: 11px;
   border-width: thin;
 }
 .cardBtn .button {
@@ -122,6 +130,8 @@ p{
   background: #fff;
   color:black;
   padding: 5px;
+  padding-right: 11px;
+  padding-left: 11px;
   border-width: thin;
 } 
 @media screen and (min-width: 340px) and (max-width: 850px)
