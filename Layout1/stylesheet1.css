@@ -3,15 +3,15 @@ body{
 }
 .root 
 {
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 120px;
+  padding-left: 120px;
 	margin: 0 auto;
 }
 .header {
   overflow: hidden;
   background-color: #333;
   width: -webkit-fill-available;
-  padding-left: 100px;
+  padding-left: 120px;
 
 }
 .header a {
@@ -33,6 +33,7 @@ h1{
   color: black;
 }
 .headBar{
+  
   margin-top: 50px;
   background-color:#ffffff;
   display: inline-flex;
@@ -117,7 +118,7 @@ hr{
  {
    .thumbnail 
    {
-     /*flex: 1 1 calc(50% - 2rem);*/
+     
      flex-grow: 1;
      flex-shrink: 1;
      flex-basis: calc(33% - 2rem);
