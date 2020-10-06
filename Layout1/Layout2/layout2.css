@@ -24,7 +24,7 @@ a#layout{
 .headBar a:hover {
     background-color: #E7E7E7;
  }
- .root{
+ .main{
      width: 90%;
      margin: auto;
      padding-bottom: 120px;
