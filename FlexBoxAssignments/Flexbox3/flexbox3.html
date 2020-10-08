@@ -1,0 +1,205 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FlexBox 3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content_container--top {
+            display: flex;
+            height: 32%;
+            text-align: center;
+            /* grid-template-rows: 10rem 10rem 10rem; */
+            flex-direction: row;
+        }
+
+        .content_container--top_box--one {
+            /* height: 100px; */
+            width: 33.33%;
+            background-color: #EC460C;
+        }
+
+        .content_container--top_box--two {
+            /* height: 100px; */
+            width: 33.33%;
+            background-color: #2E72BA;
+        }
+
+        .content_container--top_box--three {
+            /* height: 100px; */
+            width: 33.33%;
+            background-color: #EC460C;
+        }
+
+        .content_container--middle {
+            margin-top: 2vh;
+            height: 32vh;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content_container--middle_box--one {
+            /* height: 100px; */
+            width: 40%;
+            background-color: #EC460C;
+        }
+
+        .content_container--middle_box--two {
+            /* height: 100px; */
+            width: 20%;
+            background-color: #2E72BA;
+        }
+
+        .content_container--middle_box--three {
+            /* height: 100px; */
+            width: 40%;
+            background-color: #EC460C;
+        }
+
+        .content_container--last {
+            margin-top: 2vh;
+            height: 32vh;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content_container--last_box--one {
+            /* height: 100px; */
+            width: 46%;
+            background-color: #EC460C;
+        }
+
+        .content_container--last_box--two {
+            /* height: 100px; */
+            width: 8%;
+            background-color: #2E72BA;
+        }
+
+        .content_container--last_box--three {
+            /* height: 100px; */
+            width: 46%;
+            background-color: #EC460C;
+        }
+
+        p {
+            text-align: center;
+            padding-top: 45px;
+            font-size: 25px;
+            color: white;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content_container--top {
+                display: flex;
+                /* height: 32vh; */
+                text-align: center;
+                /* grid-template-rows: 10rem 10rem 10rem; */
+                flex-direction: column;
+            }
+
+            .content_container--top_box--one {
+                width: 100%;
+                height: 33.33%;
+            }
+
+            .content_container--top_box--two {
+                width: 100%;
+                height: 33.33%;
+            }
+
+            .content_container--top_box--three {
+                width: 100%;
+                height: 33.33%;
+            }
+
+            .content_container--middle {
+                margin-top: 2vh;
+                /* height: 32vh; */
+                display: flex;
+                flex-direction: column;
+            }
+            .content_container--middle_box--one{
+                width: 100%;
+                height: 40%;
+            }
+            .content_container--middle_box--two{
+                width: 100%;
+                height: 20%;
+            }
+            .content_container--middle_box--three{
+                width: 100%;
+                height: 40%;
+            }
+            .content_container--last {
+                margin-top: 2vh;
+                /* height: 32vh; */
+                display: flex;
+                flex-direction: column;
+            }
+            .content_container--last_box--one{
+                width: 100%;
+                height: 46%;
+            }
+            .content_container--last_box--two{
+                width: 100%;
+                height: 8%;
+            }
+            .content_container--last_box--two p{
+                padding-top: 1px;
+                font-size: 16px;
+            }
+            .content_container--last_box--three{
+                width: 100%;
+                height: 46%;
+            }
+            p{
+                padding-top: 1%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container--main">
+        <div class="content_container--top">
+            <div class="content_container--top_box--one">
+                <p>Box One</p>
+            </div>
+            <div class="content_container--top_box--two">
+                <p>Box Two</p>
+            </div>
+            <div class="content_container--top_box--three">
+                <p>Box Three</p>
+            </div>
+        </div>
+        <div class="content_container--middle">
+            <div class="content_container--middle_box--one">
+                <p>Box One</p>
+            </div>
+            <div class="content_container--middle_box--two">
+                <p>Box Two</p>
+            </div>
+            <div class="content_container--middle_box--three">
+                <p>Box Three</p>
+            </div>
+        </div>
+        <div class="content_container--last">
+            <div class="content_container--last_box--one">
+                <p>Box One</p>
+            </div>
+            <div class="content_container--last_box--two">
+                <p>Box Two</p>
+            </div>
+            <div class="content_container--last_box--three">
+                <p>Box Three</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
