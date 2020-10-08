@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <style>
+        div.main {
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .mainBox {
+            width: 600px;
+            height: 300px;
+            border: 0px solid #FFFFFF;
+            position: relative;
+        }
+
+        .boxTopLeft {
+            width: 295px;
+            height: 145px;
+
+            border: 2.5px solid #FF0000;
+            position: absolute;
+            left: 0;
+            top: 0;
+
+        }
+
+        .boxTopRight {
+            width: 295px;
+            height: 145px;
+            border: 2.5px solid #FFFF00;
+            position: absolute;
+            left: 300px;
+            top: 0;
+        }
+
+        .boxBottomLeft {
+            width: 295px;
+            height: 145px;
+            border: 2.5px solid #00FF00;
+            position: absolute;
+            left: 0;
+            top: 150px;
+        }
+
+        .boxBottomRight {
+            width: 295px;
+            height: 145px;
+            border: 2.5px solid #FF0000;
+            position: absolute;
+            left: 300px;
+            top: 150px;
+        }
+
+        .boxCenter {
+            width: 145px;
+            height: 145px;
+            border: 2.5px solid red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="mainBox">
+            <div class="boxTopLeft"></div>
+            <div class="boxTopRight"></div>
+            <div class="boxBottomLeft"></div>
+            <div class="boxBottomRight"></div>
+            <div class="boxCenter"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
