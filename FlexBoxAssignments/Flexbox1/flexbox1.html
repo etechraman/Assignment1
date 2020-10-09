@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FlexBox 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            height: 18vh;
+            background-color: #7EE232;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            height: 64vh;
+        }
+
+        .article {
+            background-color: white;
+            width: 60%;
+        }
+
+        .aside {
+            background-color: #F2FADA;
+            width: 20%;
+        }
+
+        .nav {
+            background-color: #D0EDD3;
+            width: 20%;
+        }
+
+        .footer {
+            height: 18vh;
+            background-color: #7EE232;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                display: flex;
+                flex-direction: column-reverse;
+                height: 64vh;
+            }
+
+            .article {
+                width: 100%;
+                height: 60%;
+            }
+
+            .aside {
+                width: 100%;
+                height: 20%;
+            }
+
+            .nav {
+                width: 100%;
+                height: 20%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Header</p>
+        </div>
+        <div class="content">
+            <div class="article">
+                <p>Article</p>
+            </div>
+            <div class="aside">
+                <p>Aside</p>
+            </div>
+            <div class="nav">
+                <p>Nav</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

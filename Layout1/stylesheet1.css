@@ -34,7 +34,7 @@ h1{
 }
 .headBar{
   
-  margin-top: 50px;
+  margin-top: 60px;
   background-color:#ffffff;
   display: inline-flex;
   size: 13.3333px;
@@ -82,7 +82,7 @@ hr{
 
 .thumbnail h2{
   color: #007baf;
- }
+}
 
  @media screen and (min-width: 320x)
  {
