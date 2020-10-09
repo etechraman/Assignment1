@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FlexBox 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container--main {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container--left {
+            width: 25%;
+            background-color: #D0EDD3;
+            height: 100vh;
+        }
+
+        .container--right {
+            width: 75%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background-color: #7EE232;
+            height: 13vh;
+        }
+
+        .content {
+
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content--left {
+            width: 75%;
+            height: 87vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article {
+            height: 74vh;
+            background-color: white;
+        }
+
+        .footer {
+            background-color: #7EE232;
+            height: 13vh;
+        }
+
+        .aside {
+            width: 25%;
+            height: 87vh;
+            background-color: #F2FADA;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container--right {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+            .content--left {
+                width: 100%;
+                height: 64vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .aside {
+                width: 100%;
+                height: 23vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container--main">
+        <div class="container--left">
+            <p>Nav</p>
+        </div>
+        <div class="container--right">
+            <div class="header">
+                <p>Header</p>
+            </div>
+            <div class="content">
+                <div class="content--left">
+                    <div class="article">
+                        <p>Article</p>
+                    </div>
+                    <div class="footer">
+                        <p>Footer</p>
+                    </div>
+                </div>
+                <div class="aside">
+                    <p>Aside</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

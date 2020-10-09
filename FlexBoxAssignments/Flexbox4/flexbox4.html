@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FlexBox 4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            height: 150px;
+            display: flex;
+            flex-flow: row;
+        }
+
+        .block1 {
+            background-color: #F5A012;
+            width: 20%;
+            text-align: center;
+            order: 5;
+        }
+
+        .block2 {
+            width: 20%;
+            text-align: center;
+            background-color: #DF4800;
+            order: 3;
+        }
+
+        .block3 {
+            text-align: center;
+            width: 20%;
+            background-color: #CD3D18;
+            order: 1;
+        }
+
+        .block4 {
+            text-align: center;
+            width: 20%;
+            background-color: #BCC1C6;
+            order: 4;
+        }
+
+        .block5 {
+            text-align: center;
+            width: 20%;
+            background-color: #7E8A8C;
+            order: 2;
+        }
+
+        p {
+            color: #ffffff;
+            padding-top: 75px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="block1">
+            <p>1</p>
+        </div>
+        <div class="block2">
+            <p>2</p>
+        </div>
+        <div class="block3">
+            <p>3</p>
+        </div>
+        <div class="block4">
+            <p>4</p>
+        </div>
+        <div class="block5">
+            <p>5</p>
+        </div>
+    </div>
+</body>
+
+</html>
